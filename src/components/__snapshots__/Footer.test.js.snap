@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footerz component renders a footer 1`] = `
+<Fragment>
+  <footer
+    className="Footer"
+  >
+    <section
+      className="stats"
+    >
+      <p>
+        Characters: 493
+      </p>
+      <p>
+        Locations: 76
+      </p>
+      <p>
+        Episodes: 31
+      </p>
+    </section>
+    <section
+      className="acknowledgment"
+    >
+      <p>
+        ❮❯ by 
+        <a
+          href="#"
+        >
+          Axel Fuhrmann
+        </a>
+         2020
+      </p>
+    </section>
+  </footer>
+</Fragment>
+`;
