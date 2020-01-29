@@ -71,4 +71,4 @@ let character8 = {
   image: '../assets/c8.jpeg'
 };
 
-export default { character1, character2, character3, character4, character5, character6, character7, character8 }; 
+export { character1, character2, character3, character4, character5, character6, character7, character8 };

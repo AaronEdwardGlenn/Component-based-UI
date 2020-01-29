@@ -1,0 +1,7 @@
+.card {
+    background-color: aqua;
+    flex: auto;
+}
+.information {
+    background-color: green;
+}
