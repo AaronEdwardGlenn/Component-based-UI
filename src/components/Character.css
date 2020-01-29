@@ -1,7 +1,11 @@
-.card {
-    background-color: aqua;
-    flex: auto;
-}
 .information {
-    background-color: green;
+    background-color: grey;
+    margin: 20px; 
+    align-items: center;
+
 }
+
+.container{
+    align-items: center;
+}
+

@@ -18,19 +18,19 @@ export default class Character extends Component{
       
       return (
         <>
-          <div id={stylesBanana.card}>
+          <section className={stylesBanana.container}>
             <div className={stylesBanana.information}>
+              <p>
+                <img src={image}></img>
+              </p>
               <p>Name: {name}</p>
               <p>Status: {status}</p>
+              <p>Species: {species}</p>
+              <p>Gender: {gender}</p>
+              <p>Origin: {origin}</p>
+              <p>Last Location: {lastLocation}</p>
             </div>
-            <p>Species: {species}</p>
-            <p>Gender: {gender}</p>
-            <p>Origin: {origin}</p>
-            <p>Last Location: {lastLocation}</p>
-            <p>
-              <img src={image}></img>
-            </p>
-          </div>
+          </section>
         </>
       );
     }
