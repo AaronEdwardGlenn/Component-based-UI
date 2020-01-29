@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Characterz component renders a character 1`] = `
+<Fragment>
+  <div
+    id="chars"
+  >
+    <p>
+      Name: 
+    </p>
+    <p>
+      Status: 
+    </p>
+    <p>
+      Species: 
+    </p>
+    <p>
+      Gender: 
+    </p>
+    <p>
+      Origin: 
+    </p>
+    <p>
+      Last Location: 
+    </p>
+    <img />
+  </div>
+</Fragment>
+`;
