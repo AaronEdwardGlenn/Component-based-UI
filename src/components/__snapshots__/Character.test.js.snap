@@ -2,28 +2,34 @@
 
 exports[`Characterz component renders a character 1`] = `
 <Fragment>
-  <div
-    id="chars"
+  <section
+    className="container"
   >
-    <p>
-      Name: 
-    </p>
-    <p>
-      Status: 
-    </p>
-    <p>
-      Species: 
-    </p>
-    <p>
-      Gender: 
-    </p>
-    <p>
-      Origin: 
-    </p>
-    <p>
-      Last Location: 
-    </p>
-    <img />
-  </div>
+    <div
+      className="information"
+    >
+      <p>
+        <img />
+      </p>
+      <p>
+        Name: 
+      </p>
+      <p>
+        Status: 
+      </p>
+      <p>
+        Species: 
+      </p>
+      <p>
+        Gender: 
+      </p>
+      <p>
+        Origin: 
+      </p>
+      <p>
+        Last Location: 
+      </p>
+    </div>
+  </section>
 </Fragment>
 `;

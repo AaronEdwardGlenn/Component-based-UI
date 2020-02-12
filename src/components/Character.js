@@ -4,13 +4,13 @@ import stylesBanana from './Character.css';
 
 export default class Character extends Component{
   static propTypes = {
-    name: PropTypes.string.isRequired,
-    status: PropTypes.string.isRequired,
-    species: PropTypes.string.isRequired,
-    gender: PropTypes.string.isRequired,
-    origin: PropTypes.string.isRequired,
-    lastLocation: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired
+    name: PropTypes.string,
+    status: PropTypes.string,
+    species: PropTypes.string,
+    gender: PropTypes.string,
+    origin: PropTypes.string,
+    lastLocation: PropTypes.string,
+    image: PropTypes.string
   }
   
   render() {
