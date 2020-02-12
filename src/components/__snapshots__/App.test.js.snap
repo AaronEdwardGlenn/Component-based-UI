@@ -1,7 +1,112 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App component renders App 1`] = `
-<h1>
-  Hello World
-</h1>
+<Fragment>
+  <Header />
+  <Character
+    data={
+      Object {
+        "gender": "Female",
+        "image": "../assets/c1.jpeg",
+        "lastLocation": "Earth (C-137)",
+        "name": "Beth Smith",
+        "origin": "Earth (C-137)",
+        "species": "Human",
+        "status": "Alive",
+      }
+    }
+  />
+  <Character
+    data={
+      Object {
+        "gender": "unknown",
+        "image": "../assets/c2.jpeg",
+        "lastLocation": "Anatomy Park",
+        "name": "Conorrhea",
+        "origin": "Anatomy Park",
+        "species": "Disease",
+        "status": "Dead",
+      }
+    }
+  />
+  <Character
+    data={
+      Object {
+        "gender": "Male",
+        "image": "../assets/c3.jpeg",
+        "lastLocation": "Citadel of Ricks",
+        "name": "Evil Rick",
+        "origin": "unknown",
+        "species": "Humanoid, Robot",
+        "status": "Dead",
+      }
+    }
+  />
+  <Character
+    data={
+      Object {
+        "gender": "unknown",
+        "image": "../assets/c4.jpeg",
+        "lastLocation": "Interdimentional Cable",
+        "name": "Three Unknown Things",
+        "origin": "unknown",
+        "species": "unknown",
+        "status": "Alive",
+      }
+    }
+  />
+  <Character
+    data={
+      Object {
+        "gender": "Male",
+        "image": "../assets/c5.jpeg",
+        "lastLocation": "Earth (Phone Dimension)",
+        "name": "Phone-person",
+        "origin": "Earth (Phone Dimension)",
+        "species": "Humanoid, Phone",
+        "status": "Alive",
+      }
+    }
+  />
+  <Character
+    data={
+      Object {
+        "gender": "Male",
+        "image": "../assets/c6.jpeg",
+        "lastLocation": "Earth (Chair Dimension)",
+        "name": "Chair-person",
+        "origin": "Earth (Chair Dimension)",
+        "species": "Humanoid, Chair",
+        "status": "Alive",
+      }
+    }
+  />
+  <Character
+    data={
+      Object {
+        "gender": "Female",
+        "image": "../assets/c7.jpeg",
+        "lastLocation": "St. Gloopy Noops Hospital",
+        "name": "St. Gloopy Noops Nurse",
+        "origin": "unkonwn",
+        "species": "Alien",
+        "status": "Alive",
+      }
+    }
+  />
+  <Character
+    data={
+      Object {
+        "gender": "Male",
+        "image": "../assets/c8.jpeg",
+        "lastLocation": "Citadel of Ricks",
+        "name": "Tan Rick",
+        "origin": "unknown",
+        "species": "Human",
+        "status": "Dead",
+      }
+    }
+  />
+  <Footer />
+</Fragment>
 `;
